@@ -28,7 +28,7 @@ Ao final, conseguimos gerar uma aplicação simples, capaz de sortear algumas pe
 
 * Com o item anterior executado, como proceder para a roleta esteja pausada enquanto o Dialog com a questão é exibido e ao mesmo tempo seja inicializada automaticamente após o mesmo ser desfeito? Repare que o estado do ícone da ActionBar deve se manter consistente durante a exibição do Dialog. Implemente essa funcionalidade.
 
-* Implemente uma novo algoritmo em QuestionsRoulette para garantir que nunca uma questão é exibida antes que todas as outras tenham sido eventualmente exibidas; em outras palavras, as questões podem se repetir, mas somente quando todas as outras possíveis da rotela já tiverem sido exibidadas (ainda que a escolha seja aleatória).
+* Implemente uma novo algoritmo em **QuestionsRoulette** para garantir que nunca uma questão é exibida antes que todas as outras tenham sido eventualmente exibidas; em outras palavras, as questões podem se repetir, mas somente quando todas as outras possíveis da rotela já tiverem sido exibidas (ainda que a escolha seja aleatória).
 
 Bom galera, acho que é isso, abraços a todos e até a próxima!
 
