@@ -10,7 +10,7 @@ Vimos como adicionar uma dependência externa no projeto via Gradle. No caso, es
 
 Também mostrei uma ferramenta bastante útil para o desenvolvedor que é o [Android Asset Studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html). Com ela, nós vimos como gerar facilmente estilos customizados para a ActionBar da aplicação, bem como gerar ícones de interesse e mesmo imagens *9Patch*.
 
-Ao final, conseguimos gerar uma aplicação simples, capaz de sortear algumas perguntas de forma aleatória. Eu adicionei algumas coisas na aplicação e seguindo as sugestões da galera, deixo também alguns pontos interessados em aprender um pouco mais sigam e se divirtam.
+Ao final, conseguimos gerar uma aplicação simples, capaz de sortear algumas perguntas de forma aleatória. Eu adicionei algumas coisas na aplicação e seguindo as sugestões da galera, deixo também alguns pontos para que os interessados em aprender um pouco mais sigam e se divirtam. :)
 
 #### TO DO (Nível Básico)
 
@@ -26,7 +26,9 @@ Ao final, conseguimos gerar uma aplicação simples, capaz de sortear algumas pe
 
 * Deixei na aplicação alguns métodos prontos para controlar o temporizador da roleta. Também deixei alguma coisa pronta para adicionar duas opções na ActionBar, sugerindo as ações de "Iniciar" e "Pausar". Obviamente, não está tudo na mão; mas ainda assim, faça com que a roleta seja controlável com ações via ActionBar.
 
-* Com o item anterior executado, como proceder para a roleta esteja pausada enquanto o Dialog com a questão é exibido e ao mesmo tempo seja inicializada automaticamente após o mesmo ser desfeito? Repare que o estado do ícone da ActionBar deve se manter consistente. Implemente essa funcionalidade.
+* Com o item anterior executado, como proceder para a roleta esteja pausada enquanto o Dialog com a questão é exibido e ao mesmo tempo seja inicializada automaticamente após o mesmo ser desfeito? Repare que o estado do ícone da ActionBar deve se manter consistente durante a exibição do Dialog. Implemente essa funcionalidade.
+
+* Implemente uma novo algoritmo em QuestionsRoulette para garantir que nunca uma questão é exibida antes que todas as outras tenham sido eventualmente exibidas; em outras palavras, as questões podem se repetir, mas somente quando todas as outras possíveis da rotela já tiverem sido exibidadas (ainda que a escolha seja aleatória).
 
 Bom galera, acho que é isso, abraços a todos e até a próxima!
 
