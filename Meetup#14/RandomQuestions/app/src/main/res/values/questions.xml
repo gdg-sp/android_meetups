@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="questions_array">
+
+        <item>O que é Dalvik?</item>
+
+        <item>Explique o que você entende por API Level do Android</item>
+
+        <item>Cite uma característica que diferencia o kernel do Android do kernel do Linux</item>
+
+        <item>Explique a diferença entre uma aplicação Android e um processo</item>
+
+        <item>Qual a finalidade do diretório res em um projeto Android?</item>
+
+        <item>O que é o arquivo AndroidManifest.xml?</item>
+
+        <item>Quais são os componentes básicos que podemos ter em uma aplicação Android?</item>
+
+        <item>Explique a função do arquivo R.java</item>
+
+        <item>Qual o design pattern que orienta a divisão em camadas de uma aplicação Android?</item>
+
+        <item>O que é uma View?</item>
+
+        <item>Qual a diferença entre View e ViewGroup?</item>
+
+        <item>Explique por que devemos preferir manter as propriedades das Views em arquivos XML,
+            ao invés de classes Java</item>
+
+        <item>Qual a diferença entre os atributos padding e margin de uma View?</item>
+
+        <item>Qual a diferença entre LinearLayout e RelativeLayout?</item>
+
+        <item>O que é uma Activity?</item>
+
+        <item>No ciclo de vida de uma Activity, em que situações ela pode ser destruída de forma passiva
+        pelo sistema? Explique</item>
+
+        <item>Uma Activity é uma Thread? Explique</item>
+
+        <item>O que é um Intent ?</item>
+
+        <item>Qual a diferença entre Intent explícito e Intent implícito? Explique</item>
+
+        <item>O que é um Intent Filter?</item>
+
+
+    </string-array>
+</resources>
